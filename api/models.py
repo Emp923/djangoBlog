@@ -6,7 +6,6 @@ class Post(models.Model):
     content = models.TextField()
     created = models.DateTimeField(auto_now_add=True)
     is_published = models.BooleanField(default=False)
-    author = models.ForeignKey(User, on_delete=models.CASCADE)
 
     class Meta:
         ordering = ['-created']
