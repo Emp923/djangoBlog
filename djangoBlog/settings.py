@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     # local apps
 
     # django apps
+    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
